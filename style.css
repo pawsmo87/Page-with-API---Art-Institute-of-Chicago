@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+body {
+	background-color: rgb(37, 37, 37);
+	font-family: 'Comfortaa', cursive;
+}
+.hero-img {
+	position: relative;
+	height: 100vh;
+	background-image: url('./img/cloud\ monet\ end\ of\ summer.jpg');
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero-text {
+	position: absolute;
+	color: white;
+	z-index: 5;
+}
+
+.hero-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.392);
+}
+
+.fa-chevron-down {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 20px;
+	font-size: 30px;
+	color: white;
+}
+
+.go{
+	padding: 2px 5px;
+	margin: 5px;
+}
+
+.statistic p {
+	color: white;
+}
+.statistic div {
+	color: rgb(170, 145, 145);
+}
+.option p {
+	margin: 0;
+	color: white;
+}
+
+.option {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.option .error-info-two {
+	color: rgb(179, 91, 91);
+}
+
+.search-btn{
+	padding: 3px;
+	margin: 5px;
+}
+
+.searchInput {
+	width: 300px;
+}
+.inputImg {
+	width: 50px;
+	text-align: center;
+}
+
+main {
+	margin-bottom: 20px;
+}
+
+img {
+	height: 250px;
+	width: 200px;
+}
+.content {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+main li {
+	height: 400px;
+	width: 200px;
+	margin: 10px;
+}
+
+main h2 {
+	color: white;
+	font-size: 18px;
+}
+main p {
+	color: gray;
+	font-size: 12px;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+}
+nav .btn {
+	padding: 3px;
+	margin: 5px;
+}
+nav input {
+	width: 100px;
+	text-align: center;
+}
+
+nav p {
+	color: rgb(206, 49, 49);
+}
